@@ -15,7 +15,7 @@ Example:
 
 If you want to change server name:
 
-    docker run -d --name ngircd -p 6667:6667 ngircd geekduck/ngircd --server-name irc.example.co.jp
+    docker run -d --name ngircd -p 6667:6667 geekduck/ngircd --server-name irc.example.co.jp
 
 
 If you want to overwrite config files:
